@@ -1,4 +1,4 @@
-ddef line(katz_deli)
+def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   elsif katz_deli.length > 0
@@ -17,7 +17,7 @@ end
 def take_a_number(katz_deli, name)
   arr = katz_deli.push(name)
   last = katz_deli.index(name)
-  print "Welcome, " + arr[-1] + ". " + "You are number #{last+1} in line."
+  print "Welcome, #{arr[-1]}. You are number #{last+1} in line."
 end
 
 # take_a_number(["Logan", "Avi", "Spencer"], "Grace")
@@ -34,6 +34,15 @@ def now_serving(katz_deli)
   end
 end
 # now_serving([])
+
+def take_number_two()
+  arr = []
+  arr << take_number_two 
+  
+  arr.each_with_index do 
+  puts "Wecome your holding ticket number"
+
+end
 
 describe 'Deli Counter' do
 
