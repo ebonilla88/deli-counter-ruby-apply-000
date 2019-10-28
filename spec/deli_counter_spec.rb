@@ -44,6 +44,15 @@ def take_number_two()
 
 end
 
+def take_number_two
+  counter = 0 
+  counter = counter + 1
+  
+  Puts "welcome you're holding number #{counter}"
+  
+  
+end 
+
 describe 'Deli Counter' do
 
   let(:katz_deli) { [] }
